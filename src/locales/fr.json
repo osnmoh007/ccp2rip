@@ -1,0 +1,58 @@
+{
+  "title": "Calculateur CCP",
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "contact": "Contact"
+  },
+  "aria": {
+    "toggleTheme": "Changer le thème",
+    "copyToClipboard": "Copier dans le presse-papiers"
+  },
+  "calculator": {
+    "title": "Calculateur de numéro CCP",
+    "description": "Calculez instantanément la clé CCP, la clé RIP et le RIB avec notre outil en ligne. Essayez-le maintenant !",
+    "inputLabel": "Numéro CCP",
+    "inputPlaceholder": "Entrez le numéro CCP (1-10 chiffres)",
+    "calculate": "Calculer"
+  },
+  "results": {
+    "title": "Résultats",
+    "rib": "RIB",
+    "ripKey": "Clé RIP",
+    "ccpKey": "Clé CCP"
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "item1": "Calcul instantané de la clé CCP, de la clé RIP et du RIB",
+    "item2": "Interface conviviale avec mode sombre et clair",
+    "item3": "Calculs sécurisés et précis",
+    "item4": "Validation des numéros CCP (1-10 chiffres uniquement)",
+    "item5": "Design responsive pour une utilisation mobile"
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "step1": "Entrez votre numéro CCP (1-10 chiffres) dans le champ de saisie",
+    "step2": "Notre système valide l'entrée pour s'assurer qu'il s'agit d'un numéro CCP valide",
+    "step3": "Cliquez sur le bouton \"Calculer\"",
+    "step4": "L'algorithme traite le numéro CCP",
+    "step5": "Le système calcule la clé CCP en utilisant une formule spécifique",
+    "step6": "La clé RIP est générée en fonction du numéro CCP",
+    "step7": "Le RIB complet est construit en utilisant les valeurs calculées",
+    "step8": "Les résultats sont affichés instantanément à l'écran"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Vous avez des questions ou besoin d'aide ? Contactez-nous à admin@mohamedmaamir.com",
+    "button": "Contacter le support"
+  },
+  "footer": {
+    "copyright": "© {{year}} Calculateur CCP. Tous droits réservés."
+  },
+  "errors": {
+    "invalidCcp": "Le numéro CCP doit contenir 1 à 10 chiffres uniquement"
+  },
+  "alerts": {
+    "copiedToClipboard": "Copié dans le presse-papiers"
+  }
+}

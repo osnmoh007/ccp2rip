@@ -1,0 +1,105 @@
+{
+  "title": "CCP Calculator",
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "contact": "Contact"
+  },
+  "aria": {
+    "toggleTheme": "Toggle theme",
+    "copyToClipboard": "Copy to clipboard"
+  },
+  "calculator": {
+    "title": "CCP Number Calculator",
+    "description": "Calculate CCP Key, RIP Key, and RIB instantly with our web-based tool. Try it now!",
+    "inputPlaceholder": "Enter CCP number",
+    "calculate": "Calculate"
+  },
+  "results": {
+    "title": "Results",
+    "rib": "RIB",
+    "ripKey": "RIP Key",
+    "ccpKey": "CCP Key"
+  },
+  "features": {
+    "title": "Features",
+    "instantCalculation": "Instant Calculation",
+    "instantCalculationDesc": "Get results in seconds with our advanced algorithm",
+    "secureProcessing": "Secure Processing",
+    "secureProcessingDesc": "Your data is processed locally and never stored",
+    "easyToUse": "Easy to Use",
+    "easyToUseDesc": "Simple web interface for quick calculations"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": "Enter your CCP number in the input field on this website",
+    "step2": "Our algorithm calculates the CCP Key using a special formula",
+    "step3": "The RIP Key is generated based on the CCP number",
+    "step4": "Finally, we construct the full RIB using the calculated keys",
+    "step5": "Receive your results instantly on the page!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or need support? Reach out to us via email at admin@mohamedmaamir.com",
+    "button": "Contact Support"
+  },
+  "footer": {
+    "copyright": "© {{year}} CCP Calculator. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "errors": {
+    "invalidCcp": "The CCP number must contain 1 to 10 digits only"
+  },
+  "alerts": {
+    "copiedToClipboard": "Copied to clipboard"
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: {{date}}",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing and using the CCP Calculator, you agree to be bound by these Terms of Service."
+    },
+    "section2": {
+      "title": "2. Use of Service",
+      "content": "The CCP Calculator is provided for informational purposes only. We do not guarantee the accuracy of the results."
+    },
+    "section3": {
+      "title": "3. User Responsibilities",
+      "content": "You are responsible for ensuring the accuracy of the information you input into the calculator."
+    },
+    "section4": {
+      "title": "4. Limitations of Liability",
+      "content": "We are not liable for any damages arising from the use or inability to use the CCP Calculator."
+    },
+    "section5": {
+      "title": "5. Changes to Terms",
+      "content": "We reserve the right to modify these Terms of Service at any time. Please review them periodically."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: {{date}}",
+    "section1": {
+      "title": "1. Information Collection",
+      "content": "We do not collect or store any personal information or CCP numbers entered into the calculator."
+    },
+    "section2": {
+      "title": "2. Use of Information",
+      "content": "All calculations are performed locally in your browser. We do not have access to your input or results."
+    },
+    "section3": {
+      "title": "3. Data Security",
+      "content": "We implement security measures to protect against unauthorized access or alteration of data."
+    },
+    "section4": {
+      "title": "4. Third-Party Services",
+      "content": "We do not share any information with third parties or use third-party analytics services."
+    },
+    "section5": {
+      "title": "5. Changes to Privacy Policy",
+      "content": "We may update this privacy policy from time to time. Please check back for any changes."
+    }
+  }
+}

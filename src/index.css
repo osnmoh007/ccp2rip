@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+    @import 'tailwindcss/components';
+    @import 'tailwindcss/utilities';
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      @apply bg-gray-900 text-white;
+    }
+
+    .container {
+      @apply max-w-6xl;
+    }
+
+    .fade-out {
+      animation: fadeOut 2s forwards;
+    }
+
+    @keyframes fadeOut {
+      0% { opacity: 1; }
+      75% { opacity: 1; }
+      100% { opacity: 0; }
+    }
