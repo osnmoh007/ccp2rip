@@ -1,4 +1,4 @@
-app = "ccp-calculator"
+app = "ccp2rip"
 primary_region = "cdg"
 
 [build]
