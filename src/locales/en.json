@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "contact": "Contact",
+    "about": "About Me",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "calculator": {
+    "title": "CCP to RIP Calculator",
+    "description": "Convert your CCP number to RIP instantly",
+    "inputPlaceholder": "Enter your CCP number",
+    "calculate": "Calculate"
+  },
+  "results": {
+    "title": "Results",
+    "rip": "RIP",
+    "ripKey": "RIP Key",
+    "ccpKey": "CCP Key"
+  },
+  "features": {
+    "title": "Features",
+    "instantCalculation": "Instant Calculation",
+    "instantCalculationDesc": "Get your RIP number in seconds",
+    "secureProcessing": "Secure Processing",
+    "secureProcessingDesc": "Your data is processed locally and never stored",
+    "easyToUse": "Easy to Use",
+    "easyToUseDesc": "Simple interface for quick conversions"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": "Enter your CCP number in the input field",
+    "step2": "Click the 'Calculate' button",
+    "step3": "The calculator processes your CCP number",
+    "step4": "Your RIP, RIP Key, and CCP Key are displayed",
+    "step5": "Copy the results or use them as needed"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or feedback? We'd love to hear from you!",
+    "button": "Contact Support"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "disclaimer": "We are not affiliated with Algerie Poste."
+  },
+  "errors": {
+    "invalidCcp": "Please enter a valid CCP number (1-10 digits)"
+  },
+  "alerts": {
+    "copiedToClipboard": "Copied to clipboard"
+  },
+  "aria": {
+    "toggleTheme": "Toggle theme",
+    "copyToClipboard": "Copy to clipboard"
+  },
+  "notFound": {
+    "message": "Oops! The page you're looking for doesn't exist.",
+    "backHome": "Go back to homepage"
+  },
+  "aboutMe": {
+    "jobTitle": "Civil Engineer / IT Professional",
+    "intro": "Successful, client-oriented Civil Engineer possessing 5 years' experience leading construction and projects engineering. On the other hand, I am an IT professional with over 12 years of experience. My aim is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that it is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.",
+    "whatImDoing": "What I'm Doing",
+    "webDesign": "Web Design",
+    "webDesignDesc": "The most modern and high-quality design made at a professional level.",
+    "webDevelopment": "Web Development",
+    "webDevelopmentDesc": "High-quality development of sites at the professional level.",
+    "civilEngineering": "Civil Engineering",
+    "civilEngineeringDesc": "Although I consider myself a computer enthusiast, my day job is a civil engineer.",
+    "skills": "Skills",
+    "civilEngineeringSkills": "Civil Engineering Skills",
+    "structuralAnalysis": "Structural Analysis",
+    "concreteDesign": "Concrete Design",
+    "cad": "CAD",
+    "projectManagement": "Project Management",
+    "numericalAnalysis": "Numerical Analysis",
+    "itSkills": "IT Skills",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "php": "PHP",
+    "wordpress": "WordPress",
+    "languages": "Languages",
+    "arabic": "Arabic",
+    "french": "French",
+    "english": "English",
+    "visitWebsite": "Visit My Website"
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: October 8, 2024",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing and using the CCP Calculator website, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service."
+    },
+    "section2": {
+      "title": "2. Use of Service",
+      "content": "The CCP Calculator is provided for informational purposes only. We do not guarantee the accuracy of calculations and are not responsible for any errors or incorrect calculations."
+    },
+    "section3": {
+      "title": "3. User Responsibilities",
+      "content": "You are responsible for ensuring the accuracy of the information you enter into the calculator. We are not liable for any consequences resulting from incorrect input or misuse of the calculator."
+    },
+    "section4": {
+      "title": "4. Intellectual Property",
+      "content": "All content on this website, including text, graphics, logos, and software, is the property of CCP Calculator and is protected by copyright laws."
+    },
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "content": "CCP Calculator and its operators will not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your access to or use of the website and its services."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 8, 2024",
+    "section1": {
+      "title": "1. Information Collection",
+      "content": "CCP Calculator does not collect or store any personal information. All calculations are performed locally in your browser."
+    },
+    "section2": {
+      "title": "2. Use of Information",
+      "content": "As we do not collect any information, we do not use or share any personal data."
+    },
+    "section3": {
+      "title": "3. Cookies and Tracking",
+      "content": "We do not use cookies or any tracking technologies on our website."
+    },
+    "section4": {
+      "title": "4. Third-Party Services",
+      "content": "We do not integrate or use any third-party services that may collect user data."
+    },
+    "section5": {
+      "title": "5. Changes to This Policy",
+      "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+    }
+  }
+}

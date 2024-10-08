@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CCP to RIP Calculator: Instantly convert CCP to RIP (CCP 2 RIP), calculate CCP Key, RIP Key, and RIB. Fast, secure RIP calculator for Algerian postal accounts."
+    />
+    <meta
+      name="keywords"
+      content="CCP to RIP, CCP 2 RIP, RIP Calculator, CCP Calculator, CCP Number Calculator, CCP Key, RIP Key, RIB Calculator, Calculateur CCP, حاسبة CCP"
+    />
+    <title>CCP to RIP Calculator | Convert CCP 2 RIP Instantly</title>
+    <link rel="canonical" href="https://ccp-calculator.fly.dev/" />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://ccp-calculator.fly.dev/fr"
+    />
+    <link
+      rel="alternate"
+      hreflang="ar"
+      href="https://ccp-calculator.fly.dev/ar"
+    />
+    <meta name="google-adsense-account" content="ca-pub-5362761801016468" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5362761801016468"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q93DP28CHS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Q93DP28CHS');
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CCP to RIP Calculator",
+        "url": "https://ccp2rip.com/",
+        "description": "Instantly convert CCP to RIP, calculate CCP Key, RIP Key, and RIB for Algerian postal accounts.",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        }
+      }
+    </script>
+    <link
+      rel="preload"
+      href="/fonts/AwanZaman-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script type="module" crossorigin src="/assets/index-445d67bd.js"></script>
+    <link rel="stylesheet" href="/assets/index-d6e3da55.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "contact": "Contact",
+    "about": "À propos de moi",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "calculator": {
+    "title": "Calculateur CCP vers RIP",
+    "description": "Convertissez instantanément votre numéro CCP en RIP",
+    "inputPlaceholder": "Entrez votre numéro CCP",
+    "calculate": "Calculer"
+  },
+  "results": {
+    "title": "Résultats",
+    "rip": "RIP",
+    "ripKey": "Clé RIP",
+    "ccpKey": "Clé CCP"
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "instantCalculation": "Calcul instantané",
+    "instantCalculationDesc": "Obtenez votre numéro RIP en quelques secondes",
+    "secureProcessing": "Traitement sécurisé",
+    "secureProcessingDesc": "Vos données sont traitées localement et jamais stockées",
+    "easyToUse": "Facile à utiliser",
+    "easyToUseDesc": "Interface simple pour des conversions rapides"
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "step1": "Entrez votre numéro CCP dans le champ de saisie",
+    "step2": "Cliquez sur le bouton 'Calculer'",
+    "step3": "Le calculateur traite votre numéro CCP",
+    "step4": "Votre RIP, clé RIP et clé CCP sont affichés",
+    "step5": "Copiez les résultats ou utilisez-les selon vos besoins"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez des questions ou des commentaires ? Nous aimerions vous entendre !",
+    "button": "Contacter le support"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "disclaimer": "Nous ne sommes pas affiliés à Algérie Poste."
+  },
+  "errors": {
+    "invalidCcp": "Veuillez entrer un numéro CCP valide (1-10 chiffres)"
+  },
+  "alerts": {
+    "copiedToClipboard": "Copié dans le presse-papiers"
+  },
+  "aria": {
+    "toggleTheme": "Changer de thème",
+    "copyToClipboard": "Copier dans le presse-papiers"
+  },
+  "notFound": {
+    "message": "Oups ! La page que vous recherchez n'existe pas.",
+    "backHome": "Retour à la page d'accueil"
+  },
+  "aboutMe": {
+    "jobTitle": "Ingénieur Civil / Professionnel IT",
+    "intro": "Ingénieur civil orienté client avec 5 ans d'expérience dans la direction de projets de construction et d'ingénierie. D'autre part, je suis un professionnel IT avec plus de 12 ans d'expérience. Mon objectif est de construire votre site web pour qu'il soit fonctionnel et convivial tout en étant attrayant. De plus, j'ajoute une touche personnelle à votre produit et m'assure qu'il soit accrocheur et facile à utiliser. Mon but est de transmettre votre message et votre identité de la manière la plus créative possible.",
+    "whatImDoing": "Ce que je fais",
+    "webDesign": "Conception Web",
+    "webDesignDesc": "Le design le plus moderne et de haute qualité réalisé à un niveau professionnel.",
+    "webDevelopment": "Développement Web",
+    "webDevelopmentDesc": "Développement de sites de haute qualité au niveau professionnel.",
+    "civilEngineering": "Ingénierie Civile",
+    "civilEngineeringDesc": "Bien que je me considère comme un passionné d'informatique, mon travail quotidien est celui d'un ingénieur civil.",
+    "skills": "Compétences",
+    "civilEngineeringSkills": "Compétences en Ingénierie Civile",
+    "structuralAnalysis": "Analyse structurelle",
+    "concreteDesign": "Conception en béton",
+    "cad": "CAO",
+    "projectManagement": "Gestion de projet",
+    "numericalAnalysis": "Analyse numérique",
+    "itSkills": "Compétences IT",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "php": "PHP",
+    "wordpress": "WordPress",
+    "languages": "Langues",
+    "arabic": "Arabe",
+    "french": "Français",
+    "english": "Anglais",
+    "visitWebsite": "Visiter mon site web"
+  },
+  "termsOfService": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : 8 octobre 2024",
+    "section1": {
+      "title": "1. Acceptation des conditions",
+      "content": "En accédant et en utilisant le site web CCP Calculator, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre service."
+    },
+    "section2": {
+      "title": "2. Utilisation du service",
+      "content": "Le CCP Calculator est fourni à titre informatif uniquement. Nous ne garantissons pas l'exactitude des calculs et ne sommes pas responsables des erreurs ou des calculs erronés."
+    },
+    "section3": {
+      "title": "3. Responsabilités de l'utilisateur",
+      "content": "Vous êtes responsable de vous assurer de l'exactitude des informations que vous saisissez dans le calculateur. Nous ne sommes pas responsables des conséquences résultant d'une saisie incorrecte ou d'une mauvaise utilisation du calculateur."
+    },
+    "section4": {
+      "title": "4. Propriété intellectuelle",
+      "content": "Tout le contenu de ce site web, y compris le texte, les graphiques, les logos et les logiciels, est la propriété de CCP Calculator et est protégé par les lois sur le droit d'auteur."
+    },
+    "section5": {
+      "title": "5. Limitation de responsabilité",
+      "content": "CCP Calculator et ses opérateurs ne seront pas responsables des dommages directs, indirects, accessoires, consécutifs ou punitifs résultant de votre accès ou de votre utilisation du site web et de ses services."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 8 octobre 2024",
+    "section1": {
+      "title": "1. Collecte d'informations",
+      "content": "CCP Calculator ne collecte ni ne stocke aucune information personnelle. Tous les calculs sont effectués localement dans votre navigateur."
+    },
+    "section2": {
+      "title": "2. Utilisation des informations",
+      "content": "Comme nous ne collectons aucune information, nous n'utilisons ni ne partageons aucune donnée personnelle."
+    },
+    "section3": {
+      "title": "3. Cookies et suivi",
+      "content": "Nous n'utilisons pas de cookies ni de technologies de suivi sur notre site web."
+    },
+    "section4": {
+      "title": "4. Services tiers",
+      "content": "Nous n'intégrons ni n'utilisons aucun service tiers susceptible de collecter des données utilisateur."
+    },
+    "section5": {
+      "title": "5. Modifications de cette politique",
+      "content": "Nous pouvons mettre à jour notre Politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de confidentialité sur cette page."
+    }
+  }
+}

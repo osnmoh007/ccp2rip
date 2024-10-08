@@ -1,0 +1,61 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply max-w-6xl;
+}
+
+.fade-out {
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* RTL Support */
+[dir="rtl"] .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .mr-2 {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+[dir="rtl"] .ml-2 {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+[dir="rtl"] .mr-6 {
+  margin-left: 1.5rem;
+  margin-right: 0;
+}
+
+/* Arabic Font */
+[lang="ar"] {
+  font-family: 'El Messiri', sans-serif;
+}
+
+/* Ensure left-to-right layout for header and footer */
+header,
+footer {
+  direction: ltr;
+}
+
+/* Allow right-to-left layout for main content in Arabic */
+[dir="rtl"] main {
+  direction: rtl;
+}
