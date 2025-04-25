@@ -8,6 +8,12 @@ if [ -z "$VERSION" ]; then
     exit 1
 fi
 
+# Check if dist directory exists
+if [ ! -d "dist" ]; then
+    echo "Error: dist directory not found. Please build the application first with 'npm run build'"
+    exit 1
+fi
+
 # Set image name and platforms
 # Replace with your Docker Hub username if needed
 REGISTRY="mohfreestyl"
