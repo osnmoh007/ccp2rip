@@ -3,7 +3,9 @@
   "nav": {
     "features": "Features",
     "howItWorks": "How It Works",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "aria": {
     "toggleTheme": "Toggle theme",
@@ -14,6 +16,11 @@
     "description": "Calculate CCP Key, RIP Key, and RIB instantly with our web-based tool. Try it now!",
     "inputPlaceholder": "Enter CCP number",
     "calculate": "Calculate"
+  },
+  "botPromotion": {
+    "title": "Try Our Telegram Bot",
+    "description": "Get CCP calculations on the go! Our Telegram bot lets you calculate CCP Key, RIP Key, and RIB directly in your Telegram chats.",
+    "openTelegram": "Open in Telegram"
   },
   "results": {
     "title": "Results",
@@ -28,7 +35,9 @@
     "secureProcessing": "Secure Processing",
     "secureProcessingDesc": "Your data is processed locally and never stored",
     "easyToUse": "Easy to Use",
-    "easyToUseDesc": "Simple web interface for quick calculations"
+    "easyToUseDesc": "Simple web interface for quick calculations",
+    "telegramBot": "Telegram Bot",
+    "telegramBotDesc": "Access the same calculations directly in Telegram chats"
   },
   "howItWorks": {
     "title": "How It Works",
@@ -44,7 +53,7 @@
     "button": "Contact Support"
   },
   "footer": {
-    "copyright": "© {{year}} CCP Calculator. All rights reserved.",
+    "copyright": "All rights reserved.",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy"
   },

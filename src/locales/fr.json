@@ -3,7 +3,9 @@
   "nav": {
     "features": "Fonctionnalités",
     "howItWorks": "Comment ça marche",
-    "contact": "Contact"
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "aria": {
     "toggleTheme": "Changer le thème",
@@ -15,6 +17,11 @@
     "inputLabel": "Numéro CCP",
     "inputPlaceholder": "Entrez le numéro CCP (1-10 chiffres)",
     "calculate": "Calculer"
+  },
+  "botPromotion": {
+    "title": "Essayez notre bot Telegram",
+    "description": "Obtenez des calculs CCP en déplacement ! Notre bot Telegram vous permet de calculer la clé CCP, la clé RIP et le RIB directement dans vos discussions Telegram.",
+    "openTelegram": "Ouvrir dans Telegram"
   },
   "results": {
     "title": "Résultats",
@@ -28,7 +35,15 @@
     "item2": "Interface conviviale avec mode sombre et clair",
     "item3": "Calculs sécurisés et précis",
     "item4": "Validation des numéros CCP (1-10 chiffres uniquement)",
-    "item5": "Design responsive pour une utilisation mobile"
+    "item5": "Design responsive pour une utilisation mobile",
+    "instantCalculation": "Calcul Instantané",
+    "instantCalculationDesc": "Obtenez des résultats en quelques secondes avec notre algorithme avancé",
+    "secureProcessing": "Traitement Sécurisé",
+    "secureProcessingDesc": "Vos données sont traitées localement et jamais stockées",
+    "easyToUse": "Facile à Utiliser",
+    "easyToUseDesc": "Interface web simple pour des calculs rapides",
+    "telegramBot": "Bot Telegram",
+    "telegramBotDesc": "Accédez aux mêmes calculs directement dans vos conversations Telegram"
   },
   "howItWorks": {
     "title": "Comment ça marche",
@@ -47,7 +62,7 @@
     "button": "Contacter le support"
   },
   "footer": {
-    "copyright": "© {{year}} Calculateur CCP. Tous droits réservés."
+    "copyright": "Tous droits réservés."
   },
   "errors": {
     "invalidCcp": "Le numéro CCP doit contenir 1 à 10 chiffres uniquement"

@@ -7,7 +7,7 @@ function PrivacyPolicy({ isDarkMode }) {
   return (
     <div className={`max-w-3xl mx-auto ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
       <h1 className="text-4xl font-bold mb-6">{t('privacyPolicy.title')}</h1>
-      <p className="mb-4">{t('privacyPolicy.lastUpdated', { date: '2023-05-01' })}</p>
+      <p className="mb-4">{t('privacyPolicy.lastUpdated', { date: '2024-10-06' })}</p>
       
       <h2 className="text-2xl font-semibold mt-8 mb-4">{t('privacyPolicy.section1.title')}</h2>
       <p className="mb-4">{t('privacyPolicy.section1.content')}</p>

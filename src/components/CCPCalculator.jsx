@@ -71,6 +71,12 @@ function CCPCalculator({ isDarkMode }) {
     setCcpNumber(value);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      calculateCCP();
+    }
+  };
+
   const CopyIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
       <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
@@ -87,6 +93,7 @@ function CCPCalculator({ isDarkMode }) {
           type="text"
           value={ccpNumber}
           onChange={handleCcpNumberChange}
+          onKeyPress={handleKeyPress}
           placeholder={t('calculator.inputPlaceholder')}
           className={`w-full p-3 mb-4 border rounded-md ${
             isDarkMode

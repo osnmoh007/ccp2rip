@@ -6,12 +6,14 @@ import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Contact from './components/Contact'
 import ThemeToggle from './components/ThemeToggle'
+import LanguageSelector from './components/LanguageSelector'
 import TermsOfService from './pages/TermsOfService'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import Footer from './components/Footer'
+import BotPromotion from './components/BotPromotion'
 
 function Header({ isDarkMode, toggleTheme }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -44,12 +46,15 @@ function Header({ isDarkMode, toggleTheme }) {
           </Link>
         </div>
         {isMobile ? (
-          <div className="flex items-center">
+          <div className="flex items-center space-x-2">
+            <LanguageSelector />
+            <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
             <button
               onClick={toggleMenu}
               className={`p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ${
                 isDarkMode ? 'text-white' : 'text-gray-800'
               }`}
+              aria-label={isMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
             >
               <svg
                 className="w-6 h-6"
@@ -67,11 +72,10 @@ function Header({ isDarkMode, toggleTheme }) {
                 )}
               </svg>
             </button>
-            <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
           </div>
         ) : (
-          <nav className="flex items-center">
-            <ul className="flex space-x-6 mr-6">
+          <nav className="flex items-center space-x-4">
+            <ul className="flex space-x-6">
               {isHomePage ? (
                 <>
                   <li><a href="#features" className={`hover:text-blue-300 transition-colors duration-200 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>{t('nav.features')}</a></li>
@@ -86,6 +90,7 @@ function Header({ isDarkMode, toggleTheme }) {
                 </>
               )}
             </ul>
+            <LanguageSelector />
             <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
           </nav>
         )}
@@ -114,7 +119,13 @@ function Header({ isDarkMode, toggleTheme }) {
 }
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+  }, [i18n.language]);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
@@ -122,13 +133,14 @@ function App() {
 
   return (
     <Router>
-      <div className={`min-h-screen flex flex-col ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'}`}>
+      <div className={`min-h-screen flex flex-col ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
         <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
-        <main className="flex-grow container mx-auto py-12 px-4">
+        <main className={`flex-grow container mx-auto px-4 py-12 ${i18n.language === 'ar' ? 'text-right' : 'text-left'}`}>
           <Routes>
             <Route path="/" element={
               <>
                 <CCPCalculator isDarkMode={isDarkMode} />
+                <BotPromotion isDarkMode={isDarkMode} />
                 <Features isDarkMode={isDarkMode} />
                 <HowItWorks isDarkMode={isDarkMode} />
                 <Contact isDarkMode={isDarkMode} />
