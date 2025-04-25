@@ -8,7 +8,7 @@ RUN npm install --production
 
 # Copy the pre-built static files and other necessary application code
 COPY ./dist ./dist
-COPY ./bot.js ./bot.js
+COPY ./bot.cjs ./bot.cjs
 COPY ./supervisord.conf ./supervisord.conf
 
 # Install supervisor to manage multiple processes
