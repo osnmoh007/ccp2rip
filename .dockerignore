@@ -5,7 +5,8 @@ yarn-debug.log
 yarn-error.log
 
 # Build outputs
-dist
+# We need the dist directory for our Docker image
+# dist
 build
 .output
 
