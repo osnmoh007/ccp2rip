@@ -2,15 +2,18 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-# Copy package files and install dependencies
+# Copy package files and install all dependencies including dev dependencies
 COPY package*.json ./
-RUN npm install --production
+RUN npm install
 
 # Copy application code
 COPY . .
 
 # Build the static website
 RUN npm run build
+
+# Remove development dependencies to reduce image size
+RUN npm prune --production
 
 # Install supervisor to manage multiple processes
 RUN apk add --no-cache supervisor
